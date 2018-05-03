@@ -3,6 +3,7 @@
 *.csv
 *.DS_Store
 __init__.py
+*/*/*/.ipynb_checkpoints*
 */.ipynb_checkpoints*
 jupyter_notebook/probability-and-statistics/.ipynb_checkpoints/*
 jupyter_notebook/programming/.ipynb_checkpoints/*
