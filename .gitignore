@@ -3,6 +3,4 @@
 *.csv
 *.DS_Store
 __init__.py
-*/*/*/.ipynb_checkpoints/*
-*/*/.ipynb_checkpoints/*
-*/.ipynb_checkpoints*
+*.ipynb_checkpoints*
