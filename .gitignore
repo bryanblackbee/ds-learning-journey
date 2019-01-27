@@ -1,6 +1,6 @@
 *.pyc
 *.json
-*.csv
+#*.csv
 *.DS_Store
 __init__.py
 *.ipynb_checkpoints*
