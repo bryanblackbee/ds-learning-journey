@@ -63,7 +63,14 @@
 ## 4.6 Pseudorandom Number Generation
  * Using `normal` to draw from a standard normal distribution
  * Using `binomial` to draw from a binomial distribution
- * Using `rand` to draw from a uniform $(-1,1)$ distribution
+ * Using `rand` to draw from a uniform (-1,1) distribution
  * Using `randint` to draw from a series of numbers in a range, with equal chance of getting any
- * Using `uniform` to draw from a uniform $\[0,1)$ distribution
-### Simulating a random walk
+ * Using `uniform` to draw from a uniform \[0,1) distribution
+ * Simulating a random walk
+ 
+# Chapter 5 - Getting Started with `pandas`
+
+## 5.1 Introduction to `pandas` Data Structures
+### Series
+### DataFrame
+### Index Objects
