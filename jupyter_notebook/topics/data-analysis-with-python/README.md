@@ -74,3 +74,11 @@
 ### Series
 ### DataFrame
 ### Index Objects
+
+## 5.2 Essential Functionality
+ * Re-indexing
+ * Dropping entries from an Axis
+ * Indexing, selection and filtering
+ * Arithmetic and Data Alignment
+ * Function Application and Mapping
+ * Sorting and Ranking
