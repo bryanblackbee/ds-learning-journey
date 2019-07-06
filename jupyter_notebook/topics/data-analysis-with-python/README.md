@@ -87,20 +87,20 @@
 ### 5.3 Summarizing and Computing Descriptive Statistics 
 
 #### Common Functions
- * df.sum
- * df.idxmax
- * df.idxmin
- * df.cumsum
- * df.describe
+ * `df.sum()`
+ * `df.idxmax()`
+ * `df.idxmin()`
+ * `df.cumsum()`
+ * `df.describe()`
  
 #### Correlation and Covariance
- * Series.corr(Series)
- * Series.cov(Series)
+ * `Series.corr(Series)`
+ * `Series.cov(Series)`
  
 #### Unique Values, Value Counts, and Membership
- * Series.unique()
- * Series.value_counts()
- * Series.isin()
+ * `Series.unique()`
+ * `Series.value_counts()`
+ * `Series.isin()`
  
 ## Chapter 6 - Data Loading, Storage, and File Formats
 
@@ -111,5 +111,5 @@
  * JSON Data
  
 ### 6.3 Interacting with Web APIs
- * Using requests to call an API
+ * Using `requests` to call an API
  * Writing JSON results to a JSON file
