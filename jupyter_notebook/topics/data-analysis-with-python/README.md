@@ -109,7 +109,10 @@
  * Writing data to text format
  * Working with Delimited Formats
  * JSON Data
- 
+
+### 6.2 Binary Data Formats
+ * Reading Microsoft Excel Files
+
 ### 6.3 Interacting with Web APIs
  * Using `requests` to call an API
  * Writing JSON results to a JSON file
