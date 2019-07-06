@@ -59,6 +59,7 @@
  * Use `np.dot(arr1, arr2)` to get matrix products
  * Use `inv` to get the inverse of a matrix
  * Use `diag()` to get the diagonal of a square matrix, `det()` to find the determinant of the square matrix and `trace()` to get the trace of a square matrix
+ * Determination of an eigenvector and some calculations
 
 ## 4.6 Pseudorandom Number Generation
  * Using `normal` to draw from a standard normal distribution
@@ -82,3 +83,33 @@
  * Arithmetic and Data Alignment
  * Function Application and Mapping
  * Sorting and Ranking
+ 
+## 5.3 Summarizing and Computing Descriptive Statistics 
+
+### Common Functions
+ * df.sum
+ * df.idxmax
+ * df.idxmin
+ * df.cumsum
+ * df.describe
+ 
+### Correlation and Covariance
+ * Series.corr(Series)
+ * Series.cov(Series)
+ 
+### Unique Values, Value Counts, and Membership
+ * Series.unique()
+ * Series.value_counts()
+ * Series.isin()
+ 
+# Chapter 6 - Data Loading, Storage, and File Formats
+
+## 6.1 Reading and Writing Data in Text Format
+ * Reading text files
+ * Writing data to text format
+ * Working with Delimited Formats
+ * JSON Data
+ 
+## 6.3 Interacting with Web APIs
+ * Using requests to call an API
+ * Writing JSON results to a JSON file
