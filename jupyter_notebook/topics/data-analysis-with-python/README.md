@@ -115,3 +115,10 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
 ### 6.3 Interacting with Web APIs
  * Using `requests` to call an API
  * Writing JSON results to a JSON file
+
+## Chapter 7 - Data Cleaning and Preparation
+
+### 7.1 Handling Missing Data
+ * Identifying missing data using `.isnull()` and `.notnull()`
+ * Using `.dropna()` to remove rows with missing values
+ * Using `.fillna()` to impute rows or cells with missing values 
