@@ -1,6 +1,5 @@
- McKinney (2017). Python for Data Analysis, 2nd Edition
+McKinney (2017). Python for Data Analysis, 2nd Edition
 =========
-**Notes**
 
 ## Chapter 4 - NumPy Basics: Arrays and Vectorized Computation
 
