@@ -122,3 +122,14 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * Identifying missing data using `.isnull()` and `.notnull()`
  * Using `.dropna()` to remove rows with missing values
  * Using `.fillna()` to impute rows or cells with missing values 
+
+### 7.2 Data Transformation
+ * identifying & removing duplicates
+ * using `.map()` to map values from a domain to another
+ * using `.apply()` to pass a `Series` or `DataFrame` to a function
+ * replacing values
+ * renaming axis indices
+ * Discretisation and Binning
+ * Detecting and Filtering Outliers
+ * Permutation and Random Sampling
+ * Computing Indicator / Dummy Variables
