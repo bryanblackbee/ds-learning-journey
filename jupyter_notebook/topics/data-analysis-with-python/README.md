@@ -133,3 +133,23 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * Detecting and Filtering Outliers
  * Permutation and Random Sampling
  * Computing Indicator / Dummy Variables
+
+### 7.3 String Transformation
+
+**String functions** NOTE: Demo is in Lazada Project
+
+ * `str.count()`, `str.startswith()`, `str.endswith()`
+ * `str.join(list)`
+ * `str.find()`
+ * `str.replace()`, `str.strip()`
+ * `str.split(delimiter)`
+ * `str.lower()`, `str.upper()`
+ 
+**`re` functions** NOTE: Demo is in Lazada Project
+
+ * `re.compile(pattern)`
+ * `re.split(pattern, str)` / `regex.split(str)`
+ * `re.findall(pattern, str)` / `regex.find(str)`
+ * `re.match(pattern, str)` and `re.search(pattern, str)`
+ * `re.sub(pattern, substitution, string)`
+ * `m.group(0)` to find substring
