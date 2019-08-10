@@ -168,7 +168,7 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
 
  * Identifying and extracting the index of a `df`.
  * Filtering for values using the outer and inner index of a `Series`
- * Using `.unstack` and `.stack()` to work between `Series` and `DataFrame` objects
+ * Using `.unstack()` and `.stack()` to work between `Series` and `DataFrame` objects
  * Extracting and modifying indices for rows and columns using `df.index.names` and `df.columns.names` respectively
  * Using `df.swaplevel()` to interchange index columns
  * Using `df.sort_index(level)` sort a `df` using index columns
@@ -183,3 +183,9 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * Merging on indices using `df1.join(df2)`
  * Stacking `df`s below each other using `pd.concat([df1, df2])` (or horizontally using `axis=1` parameter)
  * Overlaying 2 `df`s together to fill in missing values using `df1.combine_first(df2)`
+ 
+### 8.3 Reshaping and Pivoting
+
+ * Looking at `.stack()` and `.unstack()` to transform datasets
+ * Using `df.pivot()` to transform data in "long format" to a dataset with set columns
+ * Using `df.melt()` to data with named columns to "long format"
