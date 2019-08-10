@@ -154,7 +154,7 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * `re.sub(pattern, substitution, string)`
  * `m.group(0)` to find substring
  
-** String functions in `pandas`
+**String functions in `pandas`**
 
  * `Series.str.contains(s)`
  * `Series.str.findall(p)`
