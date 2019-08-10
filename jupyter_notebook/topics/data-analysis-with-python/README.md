@@ -161,3 +161,25 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * `Series.str.match(p)`
  * `Series.str.split(p)`
  * `Series.str.replace(p, y)`
+ 
+## Chapter 8 - Data Wrangling: Join, Combine, and Reshape
+
+### 8.1 Hierarchical Index
+
+ * Identifying and extracting the index of a `df`.
+ * Filtering for values using the outer and inner index of a `Series`
+ * Using `.unstack` and `.stack()` to work between `Series` and `DataFrame` objects
+ * Extracting and modifying indices for rows and columns using `df.index.names` and `df.columns.names` respectively
+ * Using `df.swaplevel()` to interchange index columns
+ * Using `df.sort_index(level)` sort a `df` using index columns
+ * Using `df.set_index()` to make a column the index and `df.reset_index()` for its reverse operation
+ 
+### 8.2 Combining and Merging Datasets
+
+ * Merging dataframes using `df1.merge(df2)` or `pd.merge(df1, df2)` with parameters
+ * Using different flavours of `how` when merging, including `left`, `right`, `inner` and `outer` 
+ * using parameters when merging to determine columns (and indices) to merge on, incluing `on`, `left_on`, `right_on`, `left_index=True` and `right_index=True`
+ * modifying columns when column names overlap using `lsuffix` and `rsuffix`
+ * Merging on indices using `df1.join(df2)`
+ * Stacking `df`s below each other using `pd.concat([df1, df2])` (or horizontally using `axis=1` parameter)
+ * Overlaying 2 `df`s together to fill in missing values using `df1.combine_first(df2)`
