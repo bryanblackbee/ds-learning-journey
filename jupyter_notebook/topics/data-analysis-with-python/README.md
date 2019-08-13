@@ -189,3 +189,19 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * Looking at `.stack()` and `.unstack()` to transform datasets
  * Using `df.pivot()` to transform data in "long format" to a dataset with set columns
  * Using `df.melt()` to data with named columns to "long format"
+ 
+## Chapter 10 - Data Aggregation and Group Operations
+
+### 10.1 `GroupBy` Mechanics
+
+ * Understand a `GroupBy` object divides a dataset into keys and their associated chunks, based on the column / `np.array` used
+ * Performing `GroupBy` on one and multiple keys
+ * Attach a function on a `GroupBy` object to obtain descriptive statistics of different slices of a dataset
+ * Iterating through a `GroupBy` object for single-key slicing and multi-key slicing
+ 
+### 10.2 Data Aggregation
+
+ * Use optimised `groupby` functions to aggregate data, including `count()`, `sum()`, `mean()`, `std()`, `var()`, `min()`, `max()`
+ * Use `Series` functions to aggregate data e.g. `quantile()`, `describe()` and use custom functions to aggregate data
+ * Perform multiple aggregation functions simultaneously on one column, or a group of 2 or more columns
+ * Perform different aggregation functions simultaneously on a group of columns using a `dict()`
