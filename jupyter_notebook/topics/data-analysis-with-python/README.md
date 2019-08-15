@@ -205,3 +205,15 @@ McKinney (2017). Python for Data Analysis, 2nd Edition
  * Use `Series` functions to aggregate data e.g. `quantile()`, `describe()` and use custom functions to aggregate data
  * Perform multiple aggregation functions simultaneously on one column, or a group of 2 or more columns
  * Perform different aggregation functions simultaneously on a group of columns using a `dict()`
+
+### 10.3 Apply: General split-apply-combine
+
+ * Use `groupby()` with a function that returns a chunk of data to apply to each group within the dataset
+ * Use `groupby()` with a function to calculate summary statistics across all groups in a dataset
+ 
+### 10.4 Pivot Tables and Cross-Tabulation
+
+ * Understand and explain the generation and use of pivot tables
+ * Create a pivot table using `df.pivot_table()`
+ * Use the `margin` parameter to obtain group totals
+ * Use `pd.crosstab(df)` to obtain frequncies within a subgroup
