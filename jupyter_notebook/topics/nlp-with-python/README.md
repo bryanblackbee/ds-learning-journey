@@ -3,6 +3,18 @@ Bird, Klein, Loper (2009). Natural Language Processing with Python
 
 ## 2. Accessing Text Corpora and Lexical Resources
 
+### Accessing Text Corpora
+
+- Gutenberg Corpus
+- Webtext Corpus
+- NPS Chat
+- Brown Corpus
+- Reuters Corpus
+
+### Conditional Frequency Distributions
+
+- 
+
 ## 5. Categorizing and Tagging Words
 
 ## 6. Learning to Classify Text
