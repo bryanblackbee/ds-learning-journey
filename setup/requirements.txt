@@ -60,7 +60,7 @@ prawcore==1.0.0
 preshed==2.0.1
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
-Pygments==2.2.0
+Pygments==2.7.4
 pyparsing==2.2.0
 python-dateutil==2.7.2
 pytz==2018.4
