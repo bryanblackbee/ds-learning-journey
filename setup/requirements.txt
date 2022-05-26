@@ -89,7 +89,7 @@ tqdm==4.31.1
 traitlets==4.3.2
 twython==3.7.0
 typing==3.6.4
-ujson==1.35
+ujson==5.2.0
 update-checker==0.16
 urllib3==1.23
 wcwidth==0.1.7
